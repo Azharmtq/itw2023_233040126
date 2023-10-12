@@ -1,0 +1,10 @@
+body {
+    background-color: aliceblue;
+}
+.Menu {
+    background-image: url('123.webp');
+    height: 70px;
+    width: auto;
+    background-size: cover;
+    text-align: center;
+}
