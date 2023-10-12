@@ -1,5 +1,5 @@
 body {
-    background-color: aliceblue;
+    background-color: rgb(171, 171, 171);
 }
 .Menu {
     background-image: url('123.webp');
@@ -7,4 +7,8 @@ body {
     width: auto;
     background-size: cover;
     text-align: center;
+}
+
+a{
+    color: red;
 }
