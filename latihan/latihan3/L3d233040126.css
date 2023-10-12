@@ -1,10 +1,14 @@
 body {
     font-family: Georgia;
+    background-image: url('background.png');
+    background-repeat: no-repeat;
+    background-size: 1000px 200px;
 }
 h1 {
     font-size: 60px;
     font-family: 'Comic Sans MS';
     color: darkblue;
+    text-align: center;
 }
 
 h4 {
@@ -33,11 +37,11 @@ h4 {
 }
 
 #Azhar{
-    color: white;
+    color: brown;
 }
 
 #Azhar:hover{
-    color: brown;
+    color: blue;
 }
 
 #Mark{
