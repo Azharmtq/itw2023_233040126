@@ -1,14 +1,6 @@
 body {
-    background-color: rgb(171, 171, 171);
+    background-color: rgb(254, 247, 247);
 }
-.Menu {
-    background-image: url('123.webp');
-    height: 70px;
-    width: auto;
-    background-size: cover;
+header {
     text-align: center;
-}
-
-a{
-    color: red;
 }
