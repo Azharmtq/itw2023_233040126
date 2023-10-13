@@ -16,15 +16,15 @@ img {
 .box img:hover {
   width: 100%;
   top: 0px;
-  opacity: 70%;
+  opacity: 90%;
 }
 .judul {
   position: absolute;
   left: 10%;
   bottom: 50%;
   font-size: 70px;
-  font-family: "HACKED";
-  color: bisque;
+  font-family: "roboto";
+  color: rgb(255, 255, 255);
 }
 /* Add a black background color to the top navigation */
 .topnav {
