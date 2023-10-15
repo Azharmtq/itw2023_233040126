@@ -7,13 +7,22 @@
     <style>
         body {
             margin-left: 40px;
+            color: rgb(0, 0, 0);
+            font-family: 'Times New Roman';
+            text-align: justify;
+        }
+
+        .sheet {
             background-image: url('https://img.freepik.com/free-photo/pastel-yellow-vignette-concrete-textured-background_53876-124561.jpg?w=900&t=st=1696943370~exp=1696943970~hmac=c4db0c2645d72c25d24c78b332c9ad3b7be42aed8b70436524fd0ddcd3d4a4c0');
             background-size: cover;
             background-repeat: no-repeat;
-            color: rgb(0, 0, 0);
-            font-family: 'Times New Roman';
+            border-radius: 2%;
+            border: 10px;
+            border-color: rgb(0, 136, 255);
+            border-width: 10cm;
+            width: 700px;
+            position: absolute;
         }
-
         .Biodata {
             width: fit-content;
             height: fit-content;
@@ -27,14 +36,23 @@
         
         h1, h2, h3, h4, h5, h6 {
             text-decoration: underline;
+            margin-left: 5px;
         }
 
         li {
             font-weight: bold;
         }
+        p {
+            margin-left: 10px;
+            margin-bottom: 10px;
+        }
+        #Deskripsi{
+            width: 60%;
+        }
     </style>
 </head>
 <body>
+    <div class="sheet" id="sheet">
     <h1 align="center">CURICULUM VITAE</h1>
     <hr>
     <h3>Biodata</h3> <img src="azhar.jpg" alt="myProfilePicture" style="justify-content:end;">
@@ -45,10 +63,9 @@
         Email : azhar.233040126@mail.unpas.ac.id
     </p>
     <h3>Deskripsi</h3>
-    <p>Saya adalah seorang Mahasiswa </b> yang masih dalam studi di <b>Universitas Pasundan</b>.<br> 
-    dengan program studi <b>Informatika</b> saya adalah pribadi yang mampu beradaptasi dengan lingkungan sekitar dan selalu<br> 
-    ingin belajar hal yang baru agar dapat memperluas soft dan hard skill saya. Saya memiliki kemampuan untuk berbicara<br> didepan publik,
-    dan Saya seorang pelajar hehe</p>
+    <p id="Deskripsi">Saya adalah seorang Mahasiswa </b> yang masih dalam studi di <b>Universitas Pasundan.</b> Dengan program studi <b>Informatika.</b>
+    Saya adalah pribadi yang mampu beradaptasi dengan lingkungan sekitar dan selalu ingin belajar hal yang baru agar dapat memperluas soft dan hard skill saya.
+    Saya memiliki kemampuan untuk berbicara didepan publik, Mungkin kemampuan saya tidak termasuk yang terbaik tapi saya ingin menjadi lebih baik.😊</p>
     <h3>Pendidikan</h3>
     <ol>
         <li>SD Al Muqoddasah</li>
@@ -75,5 +92,6 @@
         <li>Ruby</li>
         <li>Dan lain-lain. 😊</li>
     </ol>
-    <p>Mungkin Itu saja yang dapat saya sampaikan sekian dan terimakasih🗿🤣🤣</p>
+    <p>Mungkin Itu saja yang dapat saya sampaikan sekian dan terimakasih</p>
+</div>
 </html>
