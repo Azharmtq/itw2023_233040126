@@ -13,46 +13,22 @@ footer{
   position: relative;
 }
 /* Reset some default styles */
-.box1 {
-  width: 50%;
-  height: 300px;
-  position: relative;
-  background-color: #ffffff;
-  text-align: justify;
-  font-family: Impact;
-}
-.box2 {
-  width: 50%;
-  height: 300px;
-  position: relative;
-  background-color: #c17b7b;
-  text-align: justify;
-  font-family: Impact;
-}
-.box3 {
-  width: 50%;
-  height: 300px;
-  position: relative;
+.flex-container {
+  display: flex;
   background-color: #000000;
-  text-align: justify;
-  font-family: Impact;
+  height: 0px;
+  align-items: center;
+  justify-content: center;
 }
-.box31 {
-  position: absolute;
-  width: 30%;
-  height: 300px;
-  background-color: #00d8e7;
-  text-align: justify;
-  font-family: Impact;
-}
-.judul {
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  margin-top: 10%;
   position: relative;
-  text-align: center;
-  margin-top: -400px;
-  top: -100%;
-  font-size: 80px;
-  font-family: "HACKED";
-  color: rgb(0, 0, 0);
+  
 }
 .about {
   width: 100%;
