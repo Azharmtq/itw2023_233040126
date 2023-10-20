@@ -1,11 +1,12 @@
 body {
     font: 16px/28px arial, sans-serif;
-    background-color: #eaeaea;
+    background-image: url(../Latihan4/Image/moroccan-flower-dark.webp);
     color: #333;
 }
 .container {
     width: 800px;
     margin: auto;
+    margin-top: -10px;
     background-color: white;
 }
 .header {
@@ -18,8 +19,8 @@ body {
 }
 .header ul li {
     display: inline-block;
-    margin-top: 20px;
-    margin-right: 20px;
+    margin-left: -40px;
+    margin-right: 40px;
 }
 .header a {
     text-decoration: none;
@@ -50,9 +51,24 @@ body {
     margin-top: -5px;
 }
 .content .penulis a{
+    color: salmon;
     text-decoration: none;
+}
+.content .penulis a:hover{
+    background-color: rgba(100, 161, 204, 0.616);
+    color: #ffffff;
 }
 .content p{
     margin-bottom: 20px;
     font-size: 14px;
+}
+.footer{
+    background-color: #333;
+    padding: 10px;
+}
+
+.footer .copy {
+    color: #eaeaea;
+    text-align: center;
+    font-size: 12px;
 }
