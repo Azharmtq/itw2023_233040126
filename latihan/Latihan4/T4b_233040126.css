@@ -46,15 +46,6 @@ body {
     height: auto;
     margin-top: -16px;
   }
-  .samping {
-    position: fixed;
-    width: 400px;
-    height: auto;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
   .sampah {
     background-image: url('../Latihan4/Image/Satelit.png');
     width: auto;
