@@ -1,0 +1,103 @@
+/* Font */
+@font-face {
+    font-family: 'Trajan Pro';
+    src: url('../fonts/Trajan\ Pro.ttf');
+    font-family: 'Trajan Pro Bold';
+    src: url('../fonts/TrajanPro-Bold.otf');
+}
+
+/* Sytle Dasar */
+body {
+    font-family:'Trajan Pro Bold', sans-serif, arial;
+    background-color: #eaeaea;
+    border: 1px yellowgreen solid;
+}
+
+.navbar {
+    font-family: 'Trajan Pro Bold';
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: max-content;
+    background-color: #333;
+    border-bottom: 2px solid yellowgreen;
+}
+/* Navigasi */
+.navbar a {
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin: 0px;
+    padding: 20px;
+}
+
+.navbar img {
+    width: auto;
+    height: 40px;
+    margin-top: 10px;
+    position: absolute;
+    right: 5%;
+    transition: 0.8s;
+}
+
+.navbar img:hover {
+    transform: rotate(360deg);
+}
+
+.navbar a:hover {
+    background-color: aquamarine;
+    color: #333;
+    width: auto;
+    height: auto;
+}
+
+h1 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+/* Halaman Utama */
+.container {
+    width: 85%;
+    height: 1000px;
+    border: none;
+    position: absolute;
+    margin-left: 100px;
+    background-color: #333;
+    color: white;
+}
+
+.container header p {
+    font-family: 'Trajan Pro Bold';
+    text-align: center;
+    margin: auto;  
+    line-height: 0;
+    padding: auto;
+
+}
+.container p {
+    font-size: 12px;
+    font-family: 'arial';
+    text-align: justify;
+    margin: 10px 10px;  
+    line-height: 20px;
+    padding: 10px;
+}
+
+.container h2 {
+    margin: 10px 10px;
+}
+.container .utama {
+    width: auto;
+    height: 500px;
+    background-image: url('/latihan/latihan5/Tugas5/img/full/utama.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 2px solid yellowgreen;
+    border-top: 2px solid yellowgreen;
+}
+
+.container #About a .logo {
+    background-image: url('/latihan/latihan5/Tugas5/img/full/Kopalan.png');
+    width: 100px;
+    height: 100px;
+}

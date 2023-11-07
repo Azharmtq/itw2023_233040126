@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* Gaya saat target aktif */
+#section1:target {
+  background-color: #FFFFCC;
+}
+
+/* Gaya saat target tidak aktif */
+:target:not(:active) {
+  background-color: inherit;
+}
+
+    </style>
+</head>
+<body>
+  <a href="#section1">Buka Bagian 1</a>
+  <a href="#section2">Buka Bagian 2</a>
+  
+  <div id="section1">
+    <h2>Bagian 1</h2>
+    <p>Ini adalah konten bagian pertama.</p>
+  </div>
+  
+  <div id="section2">
+    <h2>Bagian 2</h2>
+    <p>Ini adalah konten bagian kedua.</p>
+  </div>
+</body>
+</html>
