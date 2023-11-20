@@ -14,7 +14,14 @@ body {
     position: relative;
     z-index: 1;
 }
+p {
+    animation: slide-in 0.8s;
+    animation-delay: 0.5;
+}
 
+h1,h2, h3, a {
+    animation: fade-in 0.5s;
+}
 .navbar {
     font-family: 'Trajan Pro Bold';
     display: flex;
@@ -46,10 +53,11 @@ body {
 }
 
 .navbar a:hover {
-    background-color: aquamarine;
+    background-color: yellowgreen;
     color: #333;
     width: auto;
     height: auto;
+    transition: 0.5s;
 }
 
 h1 {
@@ -59,7 +67,7 @@ h1 {
 /* Halaman Utama */
 .container {
     width: 85%;
-    height: 1000px;
+    height: max-content;
     border: none;
     position: absolute;
     margin-left: 100px;
@@ -194,7 +202,44 @@ h1 {
 .overlay:target .close {
     animation: slidedownfade .5s .5s forwards;
 }
+
+.footer {
+    height: 40px;
+    margin: auto;
+    background-color: #000000;
+}
+
+.footer p {
+    text-align: center;
+}
 /* animasi */
+@keyframes fade-in {
+    /* Keadaan awal: elemen transparan dan berada di bawah */
+    0% {
+      opacity: 0;
+      transform: translateY(100px);
+    }
+    /* Keadaan akhir: elemen terlihat dan berada di posisi normal */
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Membuat animasi bernama slide-in untuk elemen p */
+  @keyframes slide-in {
+    /* Keadaan awal: elemen transparan dan berada di kiri */
+    0% {
+      opacity: 0;
+      transform: translateX(-50px);
+    }
+    /* Keadaan akhir: elemen terlihat dan berada di posisi normal */
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
 @keyframes zoomDanFade {
     0% {
         transform: scale(0);
@@ -227,3 +272,14 @@ h1 {
         clip-path: inset(0 0 0 0); /* Penuh */
     }
 }
+
+@keyframes fill-up {
+    /* Keadaan awal: elemen memiliki background transparan */
+    0% {
+      background: transparent;
+    }
+    /* Keadaan akhir: elemen memiliki background kuning */
+    100% {
+      background: yellowgreen;
+    }
+  }
