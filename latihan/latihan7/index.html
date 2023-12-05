@@ -25,13 +25,13 @@
                 <p class="item">Qv2ray</p>
             </div>
         </header>
+        <nav class="menu">
         <div class="menu-toggle">
             <input type="checkbox">
             <span></span>
             <span></span>
             <span></span>
         </div>
-    <nav class="menu">
         <div class="brand">
             <h1>Az-Tech</h1>
         </div>
@@ -42,7 +42,56 @@
             <li><a href="">Gallery</a></li>
         </ul>
     </nav>
+
+    <section class="services">
+        <div class="service">
+            <div class="icon">&#128209;</div>
+            <h3>Course</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet 
+                minima quae ratione rem, non et.</p>
+        </div>
+        <div class="service">
+            <div class="icon">&#128230;</div>
+            <h3>Delivery</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet 
+                minima quae ratione rem, non et.</p>
+        </div>
+        <div class="service">
+            <div class="icon">&#128242;</div>
+            <h3>Social Media</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet 
+                minima quae ratione rem, non et.</p>
+        </div>
+        <div class="service">
+            <div class="icon">&#128085;</div>
+            <h3>Merch</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet 
+                minima quae ratione rem, non et.</p>
+        </div>
+    </section>
+
+    <section class="gallery">
+        <h2>Gallery</h2>
+        <img src="https://source.unsplash.com/random/201x201" alt="">
+        <img src="https://source.unsplash.com/random/202x202" alt="">
+        <img src="https://source.unsplash.com/random/203x203" alt="">
+        <img src="https://source.unsplash.com/random/204x204" alt="">
+        <img src="https://source.unsplash.com/random/205x205" alt="">
+        <img src="https://source.unsplash.com/random/206x206" alt="">
+        <img src="https://source.unsplash.com/random/207x207" alt="">
+        <img src="https://source.unsplash.com/random/208x208" alt="">
+        <img src="https://source.unsplash.com/random/209x209" alt="">
+        <img src="https://source.unsplash.com/random/2010x2010" alt="">
+
+    </section>
 </div>
-<script src="js/script.js"></script>
+<script>
+const menuToggle = document.querySelector('.menu-toggle input');
+const nav = document.querySelector('nav ul');
+
+menuToggle.addEventListener('click', function (){
+    nav.classList.toggle('slide');
+});
+</script>
 </body>
 </html>
